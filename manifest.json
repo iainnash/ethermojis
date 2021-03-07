@@ -1,0 +1,14 @@
+{
+    "name": "Emoji to Hash",
+    "short_name": "Emoji to Hash",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "Make all ethereum txn hashes emojis on etherscan",
+    "author": "Iain Nash",
+    "content_scripts": [{
+        "matches": ["https://etherscan.io/*"],
+        "all_frames": true,
+        "js": ["content_script.js"],
+        "run_at": "document_end"
+    }]
+}
