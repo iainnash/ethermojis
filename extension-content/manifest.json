@@ -6,7 +6,7 @@
     "description": "Make all ethereum txn hashes emojis on etherscan",
     "author": "Iain Nash",
     "content_scripts": [{
-        "matches": ["https://etherscan.io/*"],
+        "matches": ["https://*.etherscan.io/*", "https://etherscan.io/*"],
         "all_frames": true,
         "js": ["content_script.js"],
         "run_at": "document_end"
