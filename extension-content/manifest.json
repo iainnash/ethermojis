@@ -1,6 +1,6 @@
 {
-    "name": "Emoji to Hash",
-    "short_name": "Emoji to Hash",
+    "name": "Ethermoji - Ethereum data to Emoijs",
+    "short_name": "Ethermoji",
     "manifest_version": 2,
     "version": "1.0",
     "description": "Make all ethereum txn hashes emojis on etherscan",

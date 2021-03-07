@@ -1,4 +1,4 @@
-## Etherscan Emojis
+## Ethermojis
 
 This extension makes txn hashes and addresses a string of emojis on Etherscan.io.
 
